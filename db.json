@@ -1,0 +1,242 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "nived",
+      "email": "nived@gmail.com",
+      "password": "admin123"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "name": "Designing Data-Intensive Applications",
+      "country": "Martin Kleppmann",
+      "category": "Computer Science",
+      "budget": "Medium",
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=1200&q=80",
+      "description": "Designing Data-Intensive Applications is famous for its in-depth coverage of distributed systems, data architecture, and system scalability.",
+      "bestTimeToVisit": "Available Now",
+      "duration": "14 Days Loan",
+      "rating": 4.9,
+      "price": 450,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Distributed Systems & System Scalability",
+      "weather": "Shelf CS-01",
+      "attractions": [
+        "Reliability and Scalability Principles",
+        "Data Models and Query Languages",
+        "Storage and Retrieval Mechanics",
+        "Replication, Partitioning, & Consensus"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dune",
+      "country": "Frank Herbert",
+      "category": "Science Fiction",
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1532012197267-da84d127e765?auto=format&fit=crop&w=1200&q=80",
+      "description": "Dune is famous for its epic world-building set on the desert planet Arrakis, following Paul Atreides amidst intergalactic politics and spice harvesting.",
+      "bestTimeToVisit": "Reserved (Check Back Soon)",
+      "duration": "7 Days Loan",
+      "rating": 4.8,
+      "price": 250,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Epic Sci-Fi World Building & Politics",
+      "weather": "Shelf SF-04",
+      "attractions": [
+        "House Atreides Arrival on Arrakis",
+        "Fremen Survival & Spice Melange",
+        "The Trial of the Sandworms",
+        "Battle of Arrakeen"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Clean Code",
+      "country": "Robert C. Martin",
+      "category": "Software Engineering",
+      "budget": "Medium",
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=1200&q=80",
+      "description": "Even bad code can function. But if code isn't clean, it can bring a development organization to its knees.",
+      "bestTimeToVisit": "Available Now",
+      "duration": "14 Days Loan",
+      "rating": 4.7,
+      "price": 500,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Agile Software Craftsmanship & Refactoring",
+      "weather": "Shelf CS-02",
+      "attractions": [
+        "Meaningful Names & Functions",
+        "Formatting & Objects",
+        "Error Handling & Unit Tests",
+        "Refactoring Legacy Codebases"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Pragmatic Programmer",
+      "country": "Andrew Hunt & David Thomas",
+      "category": "Software Engineering",
+      "budget": "Medium",
+      "image": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=1200&q=80",
+      "description": "Illustrates best practices and major pitfalls of software development regardless of language or framework.",
+      "bestTimeToVisit": "Available Now",
+      "duration": "14 Days Loan",
+      "rating": 4.9,
+      "price": 550,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Career Growth & Code Architecture",
+      "weather": "Shelf CS-03",
+      "attractions": [
+        "Pragmatic Philosophy",
+        "Orthogonality & Reversibility",
+        "Basic Tools & Text Manipulation",
+        "Pragmatic Teams & Automation"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Atomic Habits",
+      "country": "James Clear",
+      "category": "Self-Help",
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&w=1200&q=80",
+      "description": "An easy & proven way to build good habits & break bad ones using small behavioral adjustments.",
+      "bestTimeToVisit": "Available Now",
+      "duration": "10 Days Loan",
+      "rating": 4.9,
+      "price": 300,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Habit Loops & Personal Productivity",
+      "weather": "Shelf SH-01",
+      "attractions": [
+        "The 4 Laws of Behavior Change",
+        "Make It Obvious & Attractive",
+        "Make It Easy & Satisfying",
+        "Identity-Based Habits"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "To Kill a Mockingbird",
+      "country": "Harper Lee",
+      "category": "Classic Literature",
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=1200&q=80",
+      "description": "A timeless novel examining justice, racial inequality, and empathy in the Deep South through young Scout Finch.",
+      "bestTimeToVisit": "Available Now",
+      "duration": "14 Days Loan",
+      "rating": 4.8,
+      "price": 200,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Atticus Finch & Racial Justice Narratives",
+      "weather": "Shelf CL-05",
+      "attractions": [
+        "Maycomb Childhood Adventures",
+        "Boo Radley Mystery",
+        "Trial of Tom Robinson",
+        "Moral Growth of Scout & Jem"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "1984",
+      "country": "George Orwell",
+      "category": "Dystopian Fiction",
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1200&q=80",
+      "description": "A haunting dystopian masterpiece exploring totalitarian surveillance, Newspeak, and thought control.",
+      "bestTimeToVisit": "Available Now",
+      "duration": "10 Days Loan",
+      "rating": 4.7,
+      "price": 220,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Big Brother & Dystopian Surveillance",
+      "weather": "Shelf SF-02",
+      "attractions": [
+        "Ministry of Truth & Newspeak",
+        "Winston's Secret Diary",
+        "The Room 101 Encounter",
+        "Big Brother Propaganda"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "The Hobbit",
+      "country": "J.R.R. Tolkien",
+      "category": "Fantasy",
+      "budget": "Medium",
+      "image": "https://images.unsplash.com/photo-1506880018603-83d5b814b5a6?auto=format&fit=crop&w=1200&q=80",
+      "description": "Bilbo Baggins is whisked away on an unexpected quest to reclaim the Lonely Mountain from Smaug the Dragon.",
+      "bestTimeToVisit": "Available Now",
+      "duration": "14 Days Loan",
+      "rating": 4.9,
+      "price": 350,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Middle-earth Fantasy & Smaug the Dragon",
+      "weather": "Shelf FN-01",
+      "attractions": [
+        "An Unexpected Party at Bag End",
+        "Riddles in the Dark with Gollum",
+        "Barrel Escape from Mirkwood",
+        "Battle of the Five Armies"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Sapiens: A Brief History of Humankind",
+      "country": "Yuval Noah Harari",
+      "category": "Non-Fiction / History",
+      "budget": "Medium",
+      "image": "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=1200&q=80",
+      "description": "Explores how Homo sapiens evolved to conquer Earth through cognitive, agricultural, and scientific revolutions.",
+      "bestTimeToVisit": "Available Now",
+      "duration": "14 Days Loan",
+      "rating": 4.8,
+      "price": 400,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Human History & Evolutionary Revolutions",
+      "weather": "Shelf HS-03",
+      "attractions": [
+        "The Cognitive Revolution",
+        "The Agricultural Revolution",
+        "The Unification of Humankind",
+        "The Scientific Revolution"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "The Alchemist",
+      "country": "Paulo Coelho",
+      "category": "Inspirational Fiction",
+      "budget": "Low",
+      "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=1200&q=80",
+      "description": "Fable about Santiago, an Andalusian shepherd boy who journeys to Egypt in search of a treasure buried near the Pyramids.",
+      "bestTimeToVisit": "Available Now",
+      "duration": "7 Days Loan",
+      "rating": 4.6,
+      "price": 280,
+      "language": "English",
+      "currency": "INR",
+      "famousFor": "Personal Legend & Spiritual Journeys",
+      "weather": "Shelf FI-08",
+      "attractions": [
+        "Santiago's Dreams in Andalusia",
+        "Meeting Melchizedek the King",
+        "Journey Across the Sahara",
+        "Reaching the Pyramids of Egypt"
+      ]
+    }
+  ]
+}
