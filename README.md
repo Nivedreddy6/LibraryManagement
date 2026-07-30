@@ -2,6 +2,13 @@
 
 A full-stack React web application for exploring, managing, and bookmarking books, featuring Redux state management, dynamic filtering & sorting, RESTful API integration, user authentication, and responsive UI design.
 
+## 🌐 Live Demo & API Endpoints
+
+- **🚀 Live Application (Vercel)**: [https://library-management-six-silk.vercel.app](https://library-management-six-silk.vercel.app)
+- **🗄️ Live Mock REST API (My JSON Server)**: [https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement](https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement)
+  - 📚 **Books Endpoint**: `https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement/books`
+  - 👤 **Users Endpoint**: `https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement/users`
+
 ## ✨ Features
 
 - **📖 Book Catalog**: Browse a wide collection of books with detailed metadata (Author, Category, Shelf Location, Rating, Highlights, Loan Duration).
@@ -35,7 +42,7 @@ A full-stack React web application for exploring, managing, and bookmarking book
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/LibraryManagement.git
+   git clone https://github.com/Nivedreddy6/LibraryManagement.git
    cd LibraryManagement
    ```
 
