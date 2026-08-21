@@ -23,14 +23,26 @@ A full-stack React web application for exploring, managing, and bookmarking book
 - **⚡ Modern Tech Stack**: Built with React 19, Redux Toolkit, React Router v7, Axios, and Vite.
 - **🗄️ Mock REST API**: Powered by `json-server` watching `db.json`.
 
-## 🚀 Tech Stack
+## 🛠️ Tools & Technologies Used
 
-- **Frontend**: React 19, React Router DOM, Redux Toolkit, React Redux
-- **Icons & Effects**: Lucide React, Canvas Confetti
-- **Build Tool**: Vite
-- **Styling**: Custom CSS (CSS Grid, Flexbox, Gradients)
-- **Backend / API**: JSON Server (REST API mock)
-- **HTTP Client**: Axios
+A comprehensive list of the tools, libraries, frameworks, and services powering this project:
+
+| Category | Tool / Technology | Description & Usage |
+| :--- | :--- | :--- |
+| **Frontend Framework** | **[React 19](https://react.dev/)** | Core library for building declarative, component-driven user interfaces. |
+| **Routing** | **[React Router DOM v7](https://reactrouter.com/)** | Declarative client-side routing, nested routes, and route protection. |
+| **State Management** | **[Redux Toolkit](https://redux-toolkit.js.org/)** & **[React-Redux](https://react-redux.js.org/)** | Predictable global state management for book favorites and synchronized local storage. |
+| **Build Tool & Dev Server** | **[Vite](https://vite.dev/)** | High-performance build tool with Instant Hot Module Replacement (HMR). |
+| **HTTP Client** | **[Axios](https://axios-http.com/)** | Promise-based HTTP client with configured base URLs for REST API communication. |
+| **Mock Backend / REST API** | **[JSON Server](https://github.com/typicode/json-server)** | Local full-fake REST API server powered by `db.json`. |
+| **Live API Hosting** | **[My JSON Server](https://my-json-server.typicode.com/)** | Online fake REST API hosting directly synchronized with the GitHub repository. |
+| **Code Linting** | **[Oxlint](https://oxc.rs/docs/guide/usage/linter.html)** | High-speed Rust-based linter for clean, performant, and error-free code. |
+| **Icons** | **[Lucide React](https://lucide.dev/)** | Modern, customizable SVG icon set for UI navigation and indicators. |
+| **Visual Effects** | **[Canvas Confetti](https://www.npmjs.com/package/canvas-confetti)** | Particle confetti celebration effect for interactive user actions. |
+| **Styling** | **Vanilla Modern CSS3** | Custom responsive UI styling leveraging CSS Grid, Flexbox, Glassmorphism, and CSS Variables. |
+| **Deployment & Hosting** | **[Vercel](https://vercel.com/)** | Cloud platform for automated CI/CD deployment and SPA routing (`vercel.json`). |
+| **Version Control & Collaboration** | **[Git](https://git-scm.com/) & [GitHub](https://github.com/)** | Distributed source code management and repository hosting. |
+| **Package Manager** | **[npm](https://www.npmjs.com/)** | Dependency and script management for Node.js packages. |
 
 ## 🛠️ Getting Started
 
