@@ -280,26 +280,13 @@ VITE_API_BASE_URL=http://localhost:3000
 
 ## 🗺️ Project Roadmap & Milestone Tracker
 
-- [x] ⚡ **Core Architecture**: React 19 + Vite 8 + React Router DOM v7
-- [x] 📦 **State Management**: Redux Toolkit favorites collection with LocalStorage persistence
-- [x] 🔍 **Filter Engine**: Multi-criterion search, genre chips, budget tiers & rating sorting
-- [x] 🔐 **Route Guards**: ProtectedRoute wrappers for Add and Edit book forms
-- [x] ☁️ **Cloud Deployment**: Automated Vercel Edge CI/CD + My JSON Server live API mirror
-- [ ] 🌓 **Theme Switcher**: One-click Dark Mode / Light Mode theme toggle
-- [ ] 📄 **In-Browser Reader**: Interactive PDF sample book previewer modal
-- [ ] 🔒 **Full JWT Auth**: Real Node.js/Express JWT token refresh authentication
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-roadmap.svg" width="100%" alt="Project Roadmap" />
 
 ---
 
-## 🤝 Contributing Guidelines
+## 🤝 Open Source Contributing Flow
 
-Contributions, issues, and feature requests are welcome!
-
-1. **Fork the Project** (`https://github.com/Nivedreddy6/LibraryManagement/fork`)
-2. **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the Branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-contributing.svg" width="100%" alt="Contributing Guidelines" />
 
 ---
 
