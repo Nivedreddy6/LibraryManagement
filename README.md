@@ -216,7 +216,7 @@ npm run dev
 ![Resolution](https://img.shields.io/badge/RUNTIME-Dynamic_Resolution-059669?style=for-the-badge&logo=vite&logoColor=white)
 
 > [!TIP]
-> **Dynamic Runtime Switching**: The application automatically connects to your local `json-server` during development (`http://localhost:3000`) and seamlessly routes to the live cloud API mirror in production.
+> **⚡ Dynamic Runtime Switching**: The application connects to ![Mock API](https://img.shields.io/badge/Mock_Server-json--server-059669?style=flat-square&logo=json) on ![Local Dev](https://img.shields.io/badge/Local_Dev-localhost%3A3000-0284c7?style=flat-square) and automatically routes to ![Live API](https://img.shields.io/badge/Cloud_API-My_JSON_Server-7c3aed?style=flat-square) on ![Production](https://img.shields.io/badge/Production-Vercel-db2777?style=flat-square&logo=vercel).
 
 ```env
 # 🟢 LOCAL DEVELOPMENT OVERRIDE
@@ -226,10 +226,10 @@ VITE_API_BASE_URL=http://localhost:3000
 # VITE_API_BASE_URL=https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement
 ```
 
-| Config Key | Mode Target | Endpoint URL | Behavior & Role |
-| :--- | :---: | :--- | :--- |
-| ![Key](https://img.shields.io/badge/VITE__API__BASE__URL-0284c7?style=flat-square) | ![Dev](https://img.shields.io/badge/DEVELOPMENT-059669?style=flat-square) | `http://localhost:3000` | Points to local mock server watching `db.json` |
-| ![Key](https://img.shields.io/badge/VITE__API__BASE__URL-0284c7?style=flat-square) | ![Prod](https://img.shields.io/badge/PRODUCTION-7c3aed?style=flat-square) | `https://my-json-server.typicode.com/...` | Points to cloud GitHub REST API mirror |
+| Config Variable | Environment Mode | Default Target URL | Runtime Behavior |
+| :--- | :---: | :---: | :--- |
+| ![Key](https://img.shields.io/badge/VITE__API__BASE__URL-0284c7?style=flat-square) | ![Dev](https://img.shields.io/badge/DEVELOPMENT-059669?style=flat-square) | ![Dev URL](https://img.shields.io/badge/DEV_URL-http%3A%2F%2Flocalhost%3A3000-0284c7?style=flat-square) | ![Local Persistence](https://img.shields.io/badge/Storage-db.json_Auto_Write-059669?style=flat-square) |
+| ![Key](https://img.shields.io/badge/VITE__API__BASE__URL-0284c7?style=flat-square) | ![Prod](https://img.shields.io/badge/PRODUCTION-7c3aed?style=flat-square) | ![Prod URL](https://img.shields.io/badge/PROD_URL-My_JSON_Server-7c3aed?style=flat-square) | ![Cloud Edge](https://img.shields.io/badge/Sync-GitHub_Cloud_Mirror-7c3aed?style=flat-square) |
 
 ---
 
