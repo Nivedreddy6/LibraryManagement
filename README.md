@@ -139,6 +139,8 @@
 
 ## 🏛️ System Architecture Blueprint
 
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-full-architecture.svg" width="100%" alt="Complete Project Architecture Blueprint" />
+
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1e293b', 'primaryTextColor': '#38bdf8', 'primaryBorderColor': '#38bdf8', 'lineColor': '#a855f7', 'secondaryColor': '#064e3b', 'tertiaryColor': '#4c0519'}}}%%
 graph TD
