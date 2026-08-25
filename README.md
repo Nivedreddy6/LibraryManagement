@@ -45,6 +45,17 @@
 > [!TIP]
 > **🚀 Live Web Application**: Experience the full live application in production on [**library-management-six-silk.vercel.app**](https://library-management-six-silk.vercel.app).
 
+> [!NOTE]
+> **🔑 Quick Demo Access & Testing Credentials**:
+> You can register any demo account or use the test login credentials to test protected routes (`/add-book`, `/edit-book/:id`):
+> • **Email**: `admin@library.com` &nbsp;|&nbsp; **Password**: `admin123`
+
+---
+
+## 🖥️ Application UI Preview & Experience
+
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-ui-preview.svg" width="100%" alt="Application UI Preview" />
+
 ---
 
 ## 🧭 Documentation & Architecture Hub
@@ -199,6 +210,21 @@ npm run dev
 
 ---
 
+## ⚙️ Environment Configuration
+
+The application features automated environment resolution in `src/services/api.js`. You can override the REST API target by creating a `.env` file in the root:
+
+```env
+# Optional: Target custom REST API Server
+VITE_API_BASE_URL=http://localhost:3000
+```
+
+| Variable | Default (Dev) | Default (Prod) | Purpose |
+| :--- | :--- | :--- | :--- |
+| `VITE_API_BASE_URL` | `http://localhost:3000` | `https://my-json-server.typicode.com/...` | Base target URL for Axios HTTP REST calls |
+
+---
+
 ## 🛠️ NPM Script Reference
 
 <table>
@@ -252,12 +278,45 @@ npm run dev
 
 ---
 
+## 🗺️ Project Roadmap & Milestone Tracker
+
+- [x] ⚡ **Core Architecture**: React 19 + Vite 8 + React Router DOM v7
+- [x] 📦 **State Management**: Redux Toolkit favorites collection with LocalStorage persistence
+- [x] 🔍 **Filter Engine**: Multi-criterion search, genre chips, budget tiers & rating sorting
+- [x] 🔐 **Route Guards**: ProtectedRoute wrappers for Add and Edit book forms
+- [x] ☁️ **Cloud Deployment**: Automated Vercel Edge CI/CD + My JSON Server live API mirror
+- [ ] 🌓 **Theme Switcher**: One-click Dark Mode / Light Mode theme toggle
+- [ ] 📄 **In-Browser Reader**: Interactive PDF sample book previewer modal
+- [ ] 🔒 **Full JWT Auth**: Real Node.js/Express JWT token refresh authentication
+
+---
+
+## 🤝 Contributing Guidelines
+
+Contributions, issues, and feature requests are welcome!
+
+1. **Fork the Project** (`https://github.com/Nivedreddy6/LibraryManagement/fork`)
+2. **Create your Feature Branch** (`git checkout -b feature/AmazingFeature`)
+3. **Commit your Changes** (`git commit -m 'Add some AmazingFeature'`)
+4. **Push to the Branch** (`git push origin feature/AmazingFeature`)
+5. **Open a Pull Request**
+
+---
+
 <div align="center">
 
-<p>
-  <b>Library Management System</b> • Crafted with ❤️ using <b>React 19</b>, <b>Vite</b>, and <b>Redux Toolkit</b>
-</p>
+### 👨‍💻 Author & Project Maintainer
 
-[![License](https://img.shields.io/badge/License-MIT-059669?style=flat-square)](https://github.com/Nivedreddy6/LibraryManagement)
+<b>Nived Reddy</b>
+
+[![GitHub Profile](https://img.shields.io/badge/GitHub-Nivedreddy6-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nivedreddy6)
+[![Repository Stars](https://img.shields.io/github/stars/Nivedreddy6/LibraryManagement?style=for-the-badge&logo=github&color=eab308)](https://github.com/Nivedreddy6/LibraryManagement/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-059669?style=for-the-badge)](https://github.com/Nivedreddy6/LibraryManagement/blob/main/LICENSE)
+
+<br/>
+
+<p>
+  ⭐ <i>If you found this project helpful or inspiring, please give it a star on GitHub!</i> ⭐
+</p>
 
 </div>
