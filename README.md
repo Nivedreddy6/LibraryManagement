@@ -212,16 +212,7 @@ npm run dev
 
 ## ⚙️ Environment Configuration
 
-The application features automated environment resolution in `src/services/api.js`. You can override the REST API target by creating a `.env` file in the root:
-
-```env
-# Optional: Target custom REST API Server
-VITE_API_BASE_URL=http://localhost:3000
-```
-
-| Variable | Default (Dev) | Default (Prod) | Purpose |
-| :--- | :--- | :--- | :--- |
-| `VITE_API_BASE_URL` | `http://localhost:3000` | `https://my-json-server.typicode.com/...` | Base target URL for Axios HTTP REST calls |
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-env-config.svg" width="100%" alt="Environment Configuration" />
 
 ---
 
