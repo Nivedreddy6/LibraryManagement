@@ -1,111 +1,278 @@
-# 📚 Library Management System
+<div align="center">
 
-A full-stack React web application for exploring, managing, and bookmarking books, featuring Redux state management, dynamic filtering & sorting, RESTful API integration, user authentication, and responsive UI design.
+<!-- Hero Banner -->
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/header-banner.svg" width="100%" alt="Library Management Banner" />
 
-![React](https://img.shields.io/badge/React-19.2-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-8.1-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
-![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-2.12-764ABC?style=for-the-badge&logo=redux&logoColor=white)
-![React Router](https://img.shields.io/badge/React_Router-v7.18-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-1.18-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
-![JSON Server](https://img.shields.io/badge/JSON_Server-0.17-080808?style=for-the-badge&logo=json&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel&logoColor=white)
-[![GitHub](https://img.shields.io/badge/GitHub-Nivedreddy6%2FLibraryManagement-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nivedreddy6/LibraryManagement)
+<br/>
 
-## 🌐 Live Demo & API Endpoints
+<!-- Real-time Typewriter Animation -->
+<a href="https://github.com/Nivedreddy6/LibraryManagement">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=42&lines=⚡+Full-Stack+React+19+%26+Vite+8+Engine;❤️+Redux+Toolkit+Favorites+with+LocalStorage;🔍+Real-Time+Search%2C+Multi-Genre+%26+Rating+Filters;🔐+Protected+Routes+%26+Full+CRUD+REST+Platform" alt="Typing Animation" />
+</a>
 
-- **🚀 Live Application (Vercel)**: [https://library-management-six-silk.vercel.app](https://library-management-six-silk.vercel.app)
-- **🗄️ Live Mock REST API (My JSON Server)**: [https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement](https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement)
-  - 📚 **Books Endpoint**: `https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement/books`
-  - 👤 **Users Endpoint**: `https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement/users`
+<br/>
 
-## ✨ Features
+<!-- Action Button Strip -->
+<a href="https://library-management-six-silk.vercel.app">
+  <img src="https://img.shields.io/badge/▲%20LIVE%20APP-VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" />
+</a>
+&nbsp;
+<a href="https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement">
+  <img src="https://img.shields.io/badge/📡%20REST%20API-MY%20JSON%20SERVER-080808?style=for-the-badge&logo=json&logoColor=61DAFB" alt="REST API" />
+</a>
+&nbsp;
+<a href="https://github.com/Nivedreddy6/LibraryManagement/wiki">
+  <img src="https://img.shields.io/badge/📚%20DOCS-OFFICIAL%20WIKI-764ABC?style=for-the-badge&logo=gitbook&logoColor=white" alt="Wiki" />
+</a>
 
-- **📖 Book Catalog**: Browse a wide collection of books with detailed metadata (Author, Category, Shelf Location, Rating, Highlights, Loan Duration).
-- **❤️ Favorites (Redux Toolkit)**: Add/remove favorite books using Redux state with persistent local storage.
-- **🔍 Dynamic Filtering & Search**:
-  - Live search by book title.
-  - Category filtering across all genres (Computer Science, Science Fiction, Software Engineering, Self-Help, etc.).
-  - Budget/Value filtering (Low, Medium, High).
-  - Rating sorting (High to Low, Low to High).
-- **➕ CRUD Operations**: Full capability to Add, View, Edit, and Delete books.
-- **🔐 User Authentication**: Protected routes for adding/editing books with login, registration, and logout workflows.
-- **⚡ Modern Tech Stack**: Built with React 19, Redux Toolkit, React Router v7, Axios, and Vite.
-- **🗄️ Mock REST API**: Powered by `json-server` watching `db.json`.
+<br/><br/>
 
-## 🛠️ Tools & Technologies Used
+<!-- Tech Stack Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React 19" />
+  <img src="https://img.shields.io/badge/Vite_8-646CFF?style=flat-square&logo=vite&logoColor=FFD62E" alt="Vite 8" />
+  <img src="https://img.shields.io/badge/Redux_Toolkit-2.12-764ABC?style=flat-square&logo=redux&logoColor=white" alt="Redux" />
+  <img src="https://img.shields.io/badge/React_Router-v7-CA4245?style=flat-square&logo=react-router&logoColor=white" alt="React Router" />
+  <img src="https://img.shields.io/badge/Axios-1.18-5A29E4?style=flat-square&logo=axios&logoColor=white" alt="Axios" />
+  <img src="https://img.shields.io/badge/JSON_Server-0.17-080808?style=flat-square&logo=json&logoColor=white" alt="JSON Server" />
+  <img src="https://img.shields.io/badge/License-MIT-059669?style=flat-square" alt="MIT License" />
+</p>
 
-A comprehensive list of the tools, libraries, frameworks, and services powering this project:
+</div>
 
-| Category | Tool / Technology | Description & Usage |
-| :--- | :--- | :--- |
-| **Frontend Framework** | [![React 19](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/) | Core library for building declarative, component-driven user interfaces. |
-| **Routing** | [![React Router DOM v7](https://img.shields.io/badge/React_Router_v7-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/) | Declarative client-side routing, nested routes, and route protection. |
-| **State Management** | [![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux-toolkit.js.org/)<br>[![React-Redux](https://img.shields.io/badge/React--Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://react-redux.js.org/) | Predictable global state management for book favorites and synchronized local storage. |
-| **Build Tool & Dev Server** | [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vite.dev/) | High-performance build tool with Instant Hot Module Replacement (HMR). |
-| **HTTP Client** | [![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/) | Promise-based HTTP client with configured base URLs for REST API communication. |
-| **Mock Backend / REST API** | [![JSON Server](https://img.shields.io/badge/JSON_Server-080808?style=for-the-badge&logo=json&logoColor=white)](https://github.com/typicode/json-server) | Local full-fake REST API server powered by `db.json`. |
-| **Live API Hosting** | [![My JSON Server](https://img.shields.io/badge/My_JSON_Server-181717?style=for-the-badge&logo=github&logoColor=white)](https://my-json-server.typicode.com/) | Online fake REST API hosting directly synchronized with the GitHub repository. |
-| **Code Linting** | [![Oxlint](https://img.shields.io/badge/Oxlint-F38020?style=for-the-badge&logo=rust&logoColor=white)](https://oxc.rs/docs/guide/usage/linter.html) | High-speed Rust-based linter for clean, performant, and error-free code. |
-| **Icons** | [![Lucide React](https://img.shields.io/badge/Lucide_React-F56565?style=for-the-badge&logo=lucide&logoColor=white)](https://lucide.dev/) | Modern, customizable SVG icon set for UI navigation and indicators. |
-| **Visual Effects** | [![Canvas Confetti](https://img.shields.io/badge/Canvas_Confetti-FF69B4?style=for-the-badge&logo=javascript&logoColor=white)](https://www.npmjs.com/package/canvas-confetti) | Particle confetti celebration effect for interactive user actions. |
-| **Styling** | [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) | Custom responsive UI styling leveraging CSS Grid, Flexbox, Glassmorphism, and CSS Variables. |
-| **Deployment & Hosting** | [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/) | Cloud platform for automated CI/CD deployment and SPA routing (`vercel.json`). |
-| **Version Control & Collaboration** | [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)<br>[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/) | Distributed source code management and repository hosting. |
-| **Package Manager** | [![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/) | Dependency and script management for Node.js packages. |
+---
 
-## 🛠️ Getting Started
+> [!TIP]
+> **🚀 Live Web Application**: Experience the full live application in production on [**library-management-six-silk.vercel.app**](https://library-management-six-silk.vercel.app).
 
-### Prerequisites
-- Node.js (v18 or higher)
-- npm or yarn
+---
 
-### Installation
+## 🧭 Documentation & Architecture Hub
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Nivedreddy6/LibraryManagement.git
-   cd LibraryManagement
-   ```
+<table>
+  <tr>
+    <td width="50%" style="padding: 6px; border: none;">
+      <a href="https://github.com/Nivedreddy6/LibraryManagement/wiki/Getting-Started">
+        <img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-getting-started.svg" width="100%" alt="Getting Started Guide" />
+      </a>
+    </td>
+    <td width="50%" style="padding: 6px; border: none;">
+      <a href="https://github.com/Nivedreddy6/LibraryManagement/wiki/Architecture-and-Tech-Stack">
+        <img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-architecture.svg" width="100%" alt="Architecture &amp; Tech Stack" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" style="padding: 6px; border: none;">
+      <a href="https://github.com/Nivedreddy6/LibraryManagement/wiki/Features-Guide">
+        <img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-features.svg" width="100%" alt="Features Guide" />
+      </a>
+    </td>
+    <td width="50%" style="padding: 6px; border: none;">
+      <a href="https://github.com/Nivedreddy6/LibraryManagement/wiki/API-Documentation">
+        <img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-api.svg" width="100%" alt="API Documentation" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-2. **Install dependencies**:
-   ```bash
-   npm install
-   ```
+---
 
-3. **Start the Mock API Server**:
-   ```bash
-   npm run server
-   ```
-   *(Runs json-server on http://127.0.0.1:3000)*
+## 🌟 Core Capabilities & Feature Showcase
 
-4. **Start the Frontend Development Server**:
-   ```bash
-   npm run dev
-   ```
-   *(Runs Vite dev server on http://localhost:5173)*
+<table>
+  <tr>
+    <td width="33%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/FEATURE-BOOK%20CATALOG-0284c7?style=for-the-badge&logo=bookstack&logoColor=white" />
+      <h4>📖 Rich Book Catalog</h4>
+      <p align="left">Discover books with high-res covers, authors, categories, shelf locations, and reader star ratings.</p>
+      <img src="https://img.shields.io/badge/Status-Active%20✓-059669?style=flat-square" />
+      <br/><br/>
+    </td>
+    <td width="33%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/FEATURE-DYNAMIC%20FILTERS-7c3aed?style=for-the-badge&logo=speedtest&logoColor=white" />
+      <h4>🔍 Instant Filter Engine</h4>
+      <p align="left">Real-time title search, genre multi-selection, budget tiers (Low/Med/High), and rating sorting.</p>
+      <img src="https://img.shields.io/badge/Status-Active%20✓-059669?style=flat-square" />
+      <br/><br/>
+    </td>
+    <td width="33%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/FEATURE-REDUX%20BOOKMARKS-db2777?style=for-the-badge&logo=redux&logoColor=white" />
+      <h4>❤️ Persistent Favorites</h4>
+      <p align="left">Global favorites state managed via Redux Toolkit with automatic synchronization to LocalStorage.</p>
+      <img src="https://img.shields.io/badge/Status-Active%20✓-059669?style=flat-square" />
+      <br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/FEATURE-CRUD%20OPERATIONS-059669?style=for-the-badge&logo=database&logoColor=white" />
+      <h4>➕ Full CRUD Management</h4>
+      <p align="left">Create, read, update, and delete books with instant optimistic state synchronization.</p>
+      <img src="https://img.shields.io/badge/Status-Active%20✓-059669?style=flat-square" />
+      <br/><br/>
+    </td>
+    <td width="33%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/FEATURE-AUTH%20GUARDS-ea580c?style=for-the-badge&logo=auth0&logoColor=white" />
+      <h4>🔐 Protected Routes</h4>
+      <p align="left">Session-guarded routes with simulated authentication, preventing unauthorized modifications.</p>
+      <img src="https://img.shields.io/badge/Status-Active%20✓-059669?style=flat-square" />
+      <br/><br/>
+    </td>
+    <td width="33%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/FEATURE-CLOUD%20DEPLOY-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+      <h4>☁️ Edge CDN Hosting</h4>
+      <p align="left">Vercel automated deployment pipeline with SPA URL rewrite configuration rules.</p>
+      <img src="https://img.shields.io/badge/Status-Active%20✓-059669?style=flat-square" />
+      <br/><br/>
+    </td>
+  </tr>
+</table>
 
-## 📂 Project Structure
+---
+
+## 🏛️ System Architecture Blueprint
+
+```mermaid
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#1e293b', 'primaryTextColor': '#38bdf8', 'primaryBorderColor': '#38bdf8', 'lineColor': '#a855f7', 'secondaryColor': '#064e3b', 'tertiaryColor': '#4c0519'}}}%%
+graph TD
+    Client[🖥️ Client Web Browser] --> Router[🚦 React Router DOM v7]
+    
+    subgraph Frontend Core [React 19 + Redux State]
+        Router --> PublicViews[📖 Public Views: Home, Books, Details, Login]
+        Router --> ProtectedViews[🔒 Protected Views: AddBook, EditBook]
+        PublicViews & ProtectedViews <--> ReduxStore[📦 Redux Toolkit Store]
+        ReduxStore <--> LocalStorage[(💾 LocalStorage Favorites)]
+    end
+    
+    subgraph Data & Network Layer
+        PublicViews & ProtectedViews --> Axios[⚡ Axios API Client]
+        Axios -->|Development| LocalAPI[(🗄️ JSON Server @ localhost:3000)]
+        Axios -->|Production| RemoteAPI[(☁️ My JSON Server Cloud)]
+    end
+```
+
+---
+
+## 📥 Quick Start & Installation
+
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/step1-clone.svg" width="100%" alt="Step 1" />
+
+```bash
+git clone https://github.com/Nivedreddy6/LibraryManagement.git
+cd LibraryManagement
+```
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/step2-install.svg" width="100%" alt="Step 2" />
+
+```bash
+npm install
+```
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/step3-server.svg" width="100%" alt="Step 3" />
+
+```bash
+# Terminal 1: Start Mock REST API Server
+npm run server
+```
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/step4-frontend.svg" width="100%" alt="Step 4" />
+
+```bash
+# Terminal 2: Start Vite Frontend Server
+npm run dev
+```
+
+---
+
+## 🛠️ NPM Script Reference
+
+<table>
+  <tr>
+    <td width="50%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/DEV_SERVER-Vite_8-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+      <br/><br/>
+      <h4>⚡ <code>npm run dev</code></h4>
+      <p align="left">Launches Vite development server with instant Hot Module Replacement (HMR) at <code>http://localhost:5173</code>.</p>
+      <img src="https://img.shields.io/badge/Target-Frontend-646CFF?style=flat-square" />
+      <br/><br/>
+    </td>
+    <td width="50%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/MOCK_API-JSON_Server-059669?style=for-the-badge&logo=json&logoColor=white" />
+      <br/><br/>
+      <h4>🗄️ <code>npm run server</code></h4>
+      <p align="left">Spins up local mock REST API server watching <code>db.json</code> on <code>http://127.0.0.1:3000</code> with full CRUD persistence.</p>
+      <img src="https://img.shields.io/badge/Target-Backend_REST-059669?style=flat-square" />
+      <br/><br/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/PRODUCTION-Build_Dist-7c3aed?style=for-the-badge&logo=esbuild&logoColor=white" />
+      <br/><br/>
+      <h4>📦 <code>npm run build</code></h4>
+      <p align="left">Compiles, tree-shakes, and generates minified static production assets into the <code>/dist</code> folder.</p>
+      <img src="https://img.shields.io/badge/Target-Production_Bundle-7c3aed?style=flat-square" />
+      <br/><br/>
+    </td>
+    <td width="50%" align="center" bgcolor="#0d1117">
+      <br/>
+      <img src="https://img.shields.io/badge/TESTING-Preview_Build-0284c7?style=for-the-badge&logo=vercel&logoColor=white" />
+      <br/><br/>
+      <h4>🔍 <code>npm run preview</code></h4>
+      <p align="left">Runs a local static server to test and inspect the compiled production build prior to cloud deployment.</p>
+      <img src="https://img.shields.io/badge/Target-Local_Staging-0284c7?style=flat-square" />
+      <br/><br/>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📂 Project Architecture Tree
 
 ```
 LibraryManagement/
-├── public/
+├── public/                 # Static public assets
 ├── src/
-│   ├── app/              # Redux store configuration
-│   ├── components/       # Reusable UI components (Navbar, BookCard)
-│   ├── features/         # Redux slices (favoriteSlice)
-│   ├── pages/            # Page components (Home, Books, Favorites, Auth, Details)
-│   ├── routes/           # Routing configuration & ProtectedRoute
-│   ├── services/         # Axios API instance configuration
-│   ├── App.css           # Filter layout styles
-│   ├── App.jsx           # Root App component
-│   ├── index.css         # Global design system & theme styles
-│   └── main.jsx          # App entry point with Redux Provider & Router
-├── db.json               # Mock database for JSON Server
+│   ├── app/                # Redux Store configuration (store.js)
+│   ├── components/         # Reusable UI (Navbar, BookCard, Filters)
+│   ├── features/           # Redux state slices (favoriteSlice.js)
+│   ├── pages/              # Views (Home, Books, Details, Favorites, Auth)
+│   ├── routes/             # Router config & ProtectedRoute guard
+│   ├── services/           # Axios REST API client (api.js)
+│   ├── App.jsx             # Root layout container
+│   ├── index.css           # Global CSS variables & glassmorphism theme
+│   └── main.jsx            # Application bootstrap with Redux Provider
+├── db.json                 # Mock REST database for JSON Server
+├── vercel.json             # SPA URL rewrite configuration for Vercel
 ├── package.json
 └── vite.config.js
 ```
 
-## 📜 License
+---
 
-MIT License. Free to use and modify.
+<div align="center">
+
+<p>
+  <b>Library Management System</b> • Crafted with ❤️ using <b>React 19</b>, <b>Vite</b>, and <b>Redux Toolkit</b>
+</p>
+
+[![License](https://img.shields.io/badge/License-MIT-059669?style=flat-square)](https://github.com/Nivedreddy6/LibraryManagement)
+
+</div>
