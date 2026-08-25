@@ -216,7 +216,7 @@ npm run dev
 ![Resolution](https://img.shields.io/badge/RUNTIME-Dynamic_Resolution-059669?style=for-the-badge&logo=vite&logoColor=white)
 
 > [!TIP]
-> **⚡ $\color{#38bdf8}\textsf{Dynamic Runtime Switching:}$** The application automatically connects to $\color{#34d399}\textsf{json-server}$ during local development ($\color{#60a5fa}\textsf{http://localhost:3000}$) and seamlessly routes to $\color{#c084fc}\textsf{My JSON Server}$ cloud API in $\color{#f43f5e}\textsf{Vercel Production}$.
+> **⚡ $\color{#38bdf8}\textsf{Dynamic Runtime Switching:}$** The application automatically connects to $\color{#34d399}\textsf{json-server}$ during local development ($\color{#38bdf8}\textsf{localhost:3000}$) and seamlessly routes to $\color{#c084fc}\textsf{My JSON Server}$ cloud API in $\color{#f43f5e}\textsf{Vercel Production}$.
 
 ```env
 # 🟢 LOCAL DEVELOPMENT OVERRIDE
