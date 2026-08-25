@@ -244,26 +244,9 @@ npm run dev
 
 ---
 
-## 📂 Project Architecture Tree
+## 📂 Project Architecture & Directory Layout
 
-```
-LibraryManagement/
-├── public/                 # Static public assets
-├── src/
-│   ├── app/                # Redux Store configuration (store.js)
-│   ├── components/         # Reusable UI (Navbar, BookCard, Filters)
-│   ├── features/           # Redux state slices (favoriteSlice.js)
-│   ├── pages/              # Views (Home, Books, Details, Favorites, Auth)
-│   ├── routes/             # Router config & ProtectedRoute guard
-│   ├── services/           # Axios REST API client (api.js)
-│   ├── App.jsx             # Root layout container
-│   ├── index.css           # Global CSS variables & glassmorphism theme
-│   └── main.jsx            # Application bootstrap with Redux Provider
-├── db.json                 # Mock REST database for JSON Server
-├── vercel.json             # SPA URL rewrite configuration for Vercel
-├── package.json
-└── vite.config.js
-```
+<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-project-structure.svg" width="100%" alt="Project Architecture Tree" />
 
 ---
 
