@@ -212,7 +212,24 @@ npm run dev
 
 ## ⚙️ Environment Configuration
 
-<img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/card-env-config.svg" width="100%" alt="Environment Configuration" />
+![Config](https://img.shields.io/badge/CONFIG-Environment_Variables-0284c7?style=for-the-badge&logo=dotenv&logoColor=white)
+![Resolution](https://img.shields.io/badge/RUNTIME-Dynamic_Resolution-059669?style=for-the-badge&logo=vite&logoColor=white)
+
+> [!TIP]
+> **Dynamic Runtime Switching**: The application automatically connects to your local `json-server` during development (`http://localhost:3000`) and seamlessly routes to the live cloud API mirror in production.
+
+```env
+# 🟢 LOCAL DEVELOPMENT OVERRIDE
+VITE_API_BASE_URL=http://localhost:3000
+
+# 🟣 PRODUCTION CLOUD MIRROR (Default Fallback)
+# VITE_API_BASE_URL=https://my-json-server.typicode.com/Nivedreddy6/LibraryManagement
+```
+
+| Config Key | Mode Target | Endpoint URL | Behavior & Role |
+| :--- | :---: | :--- | :--- |
+| ![Key](https://img.shields.io/badge/VITE__API__BASE__URL-0284c7?style=flat-square) | ![Dev](https://img.shields.io/badge/DEVELOPMENT-059669?style=flat-square) | `http://localhost:3000` | Points to local mock server watching `db.json` |
+| ![Key](https://img.shields.io/badge/VITE__API__BASE__URL-0284c7?style=flat-square) | ![Prod](https://img.shields.io/badge/PRODUCTION-7c3aed?style=flat-square) | `https://my-json-server.typicode.com/...` | Points to cloud GitHub REST API mirror |
 
 ---
 
