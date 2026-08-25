@@ -7,7 +7,7 @@
 
 <!-- Real-time Typewriter Animation -->
 <a href="https://github.com/Nivedreddy6/LibraryManagement">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&height=42&lines=⚡+Full-Stack+React+19+%26+Vite+8+Engine;❤️+Redux+Toolkit+Favorites+with+LocalStorage;🔍+Real-Time+Search%2C+Multi-Genre+%26+Rating+Filters;🔐+Protected+Routes+%26+Full+CRUD+REST+Platform" alt="Typing Animation" />
+  <img src="https://raw.githubusercontent.com/wiki/Nivedreddy6/LibraryManagement/images/typing-animation-home.svg" width="100%" alt="Typing Animation" />
 </a>
 
 <br/>
